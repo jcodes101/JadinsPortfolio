@@ -23,7 +23,7 @@ Whether it’s coding dynamic applications, producing music, or exploring new cr
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
-    role: "T.A. At North Carolina A&T",
+    role: "Teachers Assistant (T.A.) At North Carolina A&T",
     company: "NCAT",
     description: `Helped to deepen students' overall understanding in programming languages such as Python and Java.`,
     technologies: ["Python", "Java"],
@@ -35,7 +35,7 @@ export const PROJECTS = [
     title: "ChevConnect",
     image: project1,
     description:
-      "Tasked with developing a website to utilize AI in scanning resume and/or linkedin profile info, me and my team came up with our solution 'ChevConnect' that took 1st place in NCAT's Hackathon 8.0 Pt.2.",
+      "Tasked with developing a website to utilize AI in scanning resume and/or linkedin profile info, me and my team came up with our solution 'ChevConnect' that took 1st place in NCAT's Hackathon 8.0 Pt.2. To use the website bellow, simply enter any applicable email and password of your choosing, then enjoy the experience",
     technologies: ["React", "Javascript", "TailwindCSS", "HTML", "Node.js", "OPENAI/APIKEY", "Java"],
     link: "https://chevconnect.netlify.app/signin",
     linkTitle: "- ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴄʜᴇᴠᴄᴏɴɴᴇᴄᴛ ʜᴇʀᴇ\n"
