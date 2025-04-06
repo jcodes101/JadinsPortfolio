@@ -10,7 +10,7 @@ const Resume = () => {
             <div className="flex justify-center">
                 <iframe
                     src={JadinResume}
-                    className="w-full max-w-4xl h-auto sm:h-[800px] sm:w-3 lg:h-[1000px]"
+                    className="w-full max-w-4xl h-auto sm:h-[800px] lg:h-[1000px]"
                     allowFullScreen
                 />
             </div>
