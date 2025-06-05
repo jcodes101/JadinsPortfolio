@@ -1,5 +1,7 @@
-🌟 Personal Developer Portfolio
+## 🌟 Personal Developer Portfolio
 Welcome to my Personal Portfolio — a digital space where I showcase my projects, professional experience, and give you a deeper look into who I am as a developer and as a person. This portfolio was built with React, powered by Vite for lightning-fast performance, and styled beautifully with Tailwind CSS.
+
+## Check it out here!: https://jadin-hutchinson-portfolio.netlify.app
 
 🚀 Tech Stack
 Frontend Framework: React
