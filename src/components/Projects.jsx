@@ -25,12 +25,14 @@ const Projects = () => {
                         <div className="w-full max-w-xl lg:w-3/4">
                             <h6 className="mb-2 font-semibold">{project.title}</h6>
                             <p className="mb-2 text-neutral-400 font-thin">{project.description}</p>
-                            <a target="_blank" href={project.link}>{project.linkTitle}</a>
-                            {project.technologies.map((tech, index) => (
-                                <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-pink-200">
-                                    {tech}
-                                </span>
-                            ))}
+                            <a className="underline" target="_blank" href={project.link}>{project.linkTitle}</a>
+                            <div className="flex flex-wrap">
+                                {project.technologies.map((tech, index) => (
+                                    <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-pink-200">
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
                         </div>
 
                     </div>
