@@ -24,6 +24,10 @@ import { FaFigma } from "react-icons/fa";
 import { RiVercelLine } from "react-icons/ri";
 import { SiNetlify } from "react-icons/si";
 
+import { SiXampp } from "react-icons/si";
+import { SiApache } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+
 // used for animation
 import { motion } from 'framer-motion';
 import { track } from 'framer-motion/m';
@@ -230,6 +234,30 @@ const Technologies = () => {
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaFigma className="text-7xl text-purple-500"/>
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(2.5)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiXampp className="text-7xl text-orange-400"/>
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(1.5)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiMysql className="text-7xl text-sky-600"/>
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(1)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiApache className="text-7xl text-fuchsia-950"/>
                 </motion.div>
 
                 <motion.div 
