@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/jpic.png";
+// import profilePic from "../assets/jpic.png";
+import profilePic from "../assets/j_g.jpeg"
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -62,7 +63,7 @@ const Hero = () => {
                         src={profilePic} 
                         alt="Jadin Hutchinson" 
                         style={{width:"300px", height:"auto"}} 
-                        className="rounded-2xl shadow-[0_0_20px_#ae81e5] hover:shadow-[0_0_20px_#ffffff] transition-shadow duration-300"/>
+                        className="rounded-2xl shadow-[0_0_25px_#ffffff] hover:shadow-[0_0_25px_#97ff82] transition-shadow duration-300"/>
                     </div>
                 </div>
 

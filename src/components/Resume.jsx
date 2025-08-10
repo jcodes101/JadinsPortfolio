@@ -1,4 +1,4 @@
-import JadinResumePt3 from '../assets/Jadins_Resume_Pt3_2025.pdf';
+import JadinResumePt3 from '../assets/Jadins_Resume_Pt4.pdf';
 
 const Resume = () => {
 

@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Resume from "./components/Resume";
+import CertsAndBadges from "./components/CertsAndBadges";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
@@ -26,6 +27,7 @@ const App = () => {
         <About />
         <Technologies />
         <Resume />
+        <CertsAndBadges />
         <Experience />
         <Projects />
         <ContactMe />

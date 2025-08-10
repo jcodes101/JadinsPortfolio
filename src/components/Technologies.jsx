@@ -28,6 +28,11 @@ import { SiXampp } from "react-icons/si";
 import { SiApache } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 
+import { DiRuby } from "react-icons/di";
+import { SiRubyonrails } from "react-icons/si";
+import { SiGooglecloud } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+
 // used for animation
 import { motion } from 'framer-motion';
 import { track } from 'framer-motion/m';
@@ -53,7 +58,7 @@ const Technologies = () => {
 
         <div className="border-b border-neutral-800 py-24">
 
-            <h2 className="my-20 text-center text-4xl">Tech Stack</h2>
+            <h2 className="my-20 text-center text-4xl">Tech <span className="text-neutral-500 font-thin">Stack</span></h2>
         
             <div className="flex flex-wrap items-center justify-center gap-4">
 
@@ -258,6 +263,38 @@ const Technologies = () => {
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiApache className="text-7xl text-fuchsia-950"/>
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(1)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiRuby className="text-7xl text-red-800"/>
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(1)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiRubyonrails className="text-7xl text-red-700"/>
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(1)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiGooglecloud className="text-7xl text-gray-400"/>
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(1)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaDocker className="text-7xl text-blue-700"/>
                 </motion.div>
 
                 <motion.div 
