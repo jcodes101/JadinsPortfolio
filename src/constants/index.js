@@ -8,36 +8,65 @@ import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
+import project10 from "../assets/projects/project-10.png";
+
+import badge_1 from "../assets/certs_badges/impl_bdg.jpg";
+import cert_1 from "../assets/certs_badges/cdl_jh.png";
 
 export const HERO_CONTENT = `My name is Jadin Hutchinson.  
 
 I enjoy making all sorts of front-end UI/UX websites and applications that involve creating a GUI for a great user experience.  
 
-I have significant overall programming experience in Python, Java, C++, JavaScript, TypeScript, CSS, Tailwind CSS, HTML, LaTeX, and more.  
+I have significant overall programming experience in JavaScript, Ruby, Python, Rust and more.  
 
 My goal is to become a serial entrepreneur, owning my own websites and businesses while making an impact through them in the world of technology.`;
 
-export const ABOUT_TEXT = `Born in Bridgeport, CT, and raised in Atlanta, GA, my journey has been shaped by the ongoing support of my family, and a mix of creativity and technology. 
+export const ABOUT_TEXT = `Born in Bridgeport, CT, and raised in Atlanta, GA, my journey has been a mix of creativity and technology. 
 
-My passions span from music production, fashion and gaming—each playing a role in sparking my deep interest in technology. 
+My passions spanning from music production, fashion, and gaming—each playing a role in sparking my interest in the endless world of technology. 
 
-What started as a fascination with how things work evolved into a drive to build, create, and innovate. 
+What started as a question from 9-year-old me, "What makes my character Jump when I press 'X' on the controller?" has evolved into a drive to build, create, and innovate. 
 
 Whether it’s coding dynamic applications, producing music, or exploring new creative outlets, I’m always seeking ways to push boundaries and bring ideas to life.`;
 
+export const CERTS_BADGES = [
+  {
+    title: "Jadin Hutchinson CDL Cert",
+    image: cert_1,
+  },
+  {
+    title: "Implement Load Balancing on Compute Engine Badge",
+    image: badge_1,
+  },
+];
+
 export const EXPERIENCES = [
+  {
+    year: "May 2025 - Aug. 2025",
+    role: "Google Cloud Career Jumpstart Cohort",
+    company: "Google",
+    description: "Took involved participation and had real world experience in learning about Google Cloud resources, developing skills and knowledge in cloud infrastructure, as well developing in GCP.",
+    technologies: ["Google Cloud"]
+  },
+  {
+    year: "2025 - Present",
+    role: "CodePath Tech Fellow (T.F.)",
+    company: "CodePath",
+    description: "Stepped in as a Tech Fellow with CodePath and helped students to further their programming skills.",
+    technologies: ["Python"],
+  },
   {
     year: "2024 - Present",
     role: "Teachers Assistant (T.A.) At North Carolina A&T",
     company: "NCAT",
-    description: `Helped to deepen students' overall understanding in programming languages such as Python and Java.`,
+    description: "Helped to deepen students' overall understanding in programming languages such as Python and Java.",
     technologies: ["Python", "Java"],
   },
   {
     year: "2025 - Present",
     role: "Freelance Web Developer",
     company: "NCAT",
-    description: `Develop websites for efficient user experiences, focusing on design, frontend and backend functionality.`,
+    description: "Develop websites for efficient user experiences, focusing on design, frontend and backend functionality.",
     technologies: ["JavaScript", "TypeScript", "CSS", "Tailwind CSS", "HTML"],
   },
 ];
@@ -60,6 +89,14 @@ export const PROJECTS = [
     technologies: ["React", "JavaScript", "CSS", "HTML", "Node.js", "Gemini API", "Firebase", "Netlify"],
     link: "https://jai-ai-model.netlify.app/",
     linkTitle: "- Check out 'Jai' Here\n"
+  },
+  {
+    title: "Jynx",
+    image: project10,
+    description: "Jynx is a linktree-alike web application designed to allow users to create an account and design their own Jynx with their own personal links and design it however one sees fit.",
+    technologies: ["Ruby", "Ruby on Rails", "HTML", "CSS", "Docker"],
+    link: "https://youtu.be/5dkDputFysU",
+    linkTitle: "- Check out 'Jynx' Here\n"
   },
   {
     title: "Jcodes Backgrounds",
@@ -89,18 +126,13 @@ export const PROJECTS = [
     linkTitle: "- Check out 'Visa Rewards Plus' Here\n"
   },
   {
-    title: "Budget Management App GUI",
-    image: project2,
-    description:
-      "An application for managing one's budget and keeping track of their expenses, with features such as task adding a transaction, adding client info, and being able to report a purchase.",
-    technologies: ["Java", "IntelliJ", "JavaFX"],
-  },
-  {
     title: "NetApp Data Center Optimization",
     image: project3,
     description:
       "Participating in NCAT's Hackathon 8.0 Pt.1, my team and I developed a Data Center Optimization Application for NetApp to deliver cooling to different sectors of databse to prevent overheating or under optimization.",
     technologies: ["Python", "PyCharm", "CustomTkinter"],
+    link: "https://github.com/jcodes101/DataCenterOptimizationGUIForNetApp",
+    linkTitle: "- Check out Source Code Here\n"
   },
   {
     title: "Spoti.py App",
@@ -108,12 +140,16 @@ export const PROJECTS = [
     description:
       "This application utilizes Spotify's API to make calls to their database and retrieve information whenever a user searches for an Author, Album, Single, and so on. Another included feature is also Spotify's 'for Developers' website that will allow a user to create their own CLIENT ID and KEY via Spotify for Developers (S.f.D.) and use that to make more in-depth callouts to Spotify's database using their API through the web.",
     technologies: ["Python", "PyCharm", "Spoti.py", "Spotify API"],
+    link: "https://github.com/jcodes101/SonicHubSpotifyApp",
+    linkTitle: "- Check out Source Code Here\n"
   },
   {
     title: "Simple Web Searcher",
     image: project5,
     description: "Created this Python program using the Wiki API to retrieve articles by searching for specific keywords, providing users with relevant content based on their input.",
     technologies: ["Python", "PyCharm", "Wiki API"],
+    link: "https://github.com/jcodes101/SimplifiedSearchEngine",
+    linkTitle: "- Check out Source Code Here\n"
   },
 ];
 
