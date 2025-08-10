@@ -1,4 +1,4 @@
-import aboutImg from '../assets/codeimg.png';
+import aboutImg from '../assets/c_bg.jpg'
 import { ABOUT_TEXT } from '../constants';
 import { motion } from "framer-motion";
 
@@ -19,7 +19,7 @@ const About = () => {
                     className="w-full lg:w-1/2 lg:p-8">
 
                     <div className="flex items-center justify-center">
-                        <img src={aboutImg} alt="aboutimg" style={{width:"500px", height:"auto"}} className="rounded-2xl shadow-[0_0_15px_#a2d2ff] hover:shadow-[0_0_15px_#f7c2ff] transition-shadow duration-300"/>
+                        <img src={aboutImg} alt="aboutimg" style={{width:"500px", height:"auto"}} className="rounded-2xl shadow-[0_0_25px_#a2d2ff] hover:shadow-[0_0_25px_#ff82f3] transition-shadow duration-300"/>
                     </div>
 
                 </motion.div>
