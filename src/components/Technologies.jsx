@@ -33,6 +33,9 @@ import { SiRubyonrails } from "react-icons/si";
 import { SiGooglecloud } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 
+import { SiOracle } from "react-icons/si";
+import { FaRProject } from "react-icons/fa";
+
 // used for animation
 import { motion } from 'framer-motion';
 import { track } from 'framer-motion/m';
@@ -202,6 +205,14 @@ const Technologies = () => {
                 </motion.div>
 
                 <motion.div 
+                variants={iconVariants(1)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaRProject className="text-7xl text-blue-500"/>
+                </motion.div>
+
+                <motion.div 
                 variants={iconVariants(1.5)}
                 initial="initial"
                 animate="animate"
@@ -287,6 +298,14 @@ const Technologies = () => {
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiGooglecloud className="text-7xl text-gray-400"/>
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(1)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiOracle className="text-7xl text-red-500"/>
                 </motion.div>
 
                 <motion.div 
