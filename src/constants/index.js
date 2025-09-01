@@ -12,6 +12,7 @@ import project10 from "../assets/projects/project-10.png";
 
 import badge_1 from "../assets/certs_badges/impl_bdg.jpg";
 import cert_1 from "../assets/certs_badges/cdl_jh.png";
+import badge_2 from "../assets/certs_badges/j_oracle_1.jpg"
 
 export const HERO_CONTENT = `My name is Jadin Hutchinson.  
 
@@ -37,6 +38,10 @@ export const CERTS_BADGES = [
   {
     title: "Implement Load Balancing on Compute Engine Badge",
     image: badge_1,
+  },
+  {
+    title: "Oracle Autonomous Database Cloud 2025 Certified Professional",
+    image: badge_2,
   },
 ];
 
