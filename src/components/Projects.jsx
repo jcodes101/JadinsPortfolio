@@ -28,7 +28,7 @@ const Projects = () => {
                             <a className="underline" target="_blank" href={project.link}>{project.linkTitle}</a>
                             <div className="flex flex-wrap">
                                 {project.technologies.map((tech, index) => (
-                                    <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-pink-200">
+                                    <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-200">
                                         {tech}
                                     </span>
                                 ))}
