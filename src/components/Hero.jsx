@@ -39,7 +39,7 @@ const Hero = () => {
                         whileTap={{ scale: 1.1 }}
                         drag="x"
                         dragConstraints={{ left: -1, right: 1 }}
-                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Computer Scientist</motion.span>
+                        className="bg-gradient-to-r from-blue-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Computer Scientist</motion.span>
                     
                         <motion.p 
                         variants={container(1)}
