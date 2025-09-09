@@ -12,7 +12,8 @@ import project10 from "../assets/projects/project-10.png";
 
 import badge_1 from "../assets/certs_badges/impl_bdg.jpg";
 import cert_1 from "../assets/certs_badges/cdl_jh.png";
-import badge_2 from "../assets/certs_badges/j_oracle_1.jpg"
+import cert_2 from "../assets/certs_badges/j_oracle_1.jpg"
+import cert_3 from "../assets/certs_badges/jh_nvidia_coursera.jpeg"
 
 export const HERO_CONTENT = `My name is Jadin Hutchinson.  
 
@@ -41,7 +42,11 @@ export const CERTS_BADGES = [
   },
   {
     title: "Oracle Autonomous Database Cloud 2025 Certified Professional",
-    image: badge_2,
+    image: cert_2,
+  },
+  {
+    title: "(NCA-GENL): NVIDIA-Certified Generative AI LLMs",
+    image: cert_3,
   },
 ];
 

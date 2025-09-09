@@ -36,6 +36,11 @@ import { FaDocker } from "react-icons/fa";
 import { SiOracle } from "react-icons/si";
 import { FaRProject } from "react-icons/fa";
 
+import { SiJupyter } from "react-icons/si";
+import { SiNvidia } from "react-icons/si";
+
+
+
 // used for animation
 import { motion } from 'framer-motion';
 import { track } from 'framer-motion/m';
@@ -209,6 +214,14 @@ const Technologies = () => {
                 initial="initial"
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiJupyter className="text-7xl text-orange-500"/>
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(1)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaRProject className="text-7xl text-blue-500"/>
                 </motion.div>
 
@@ -218,6 +231,14 @@ const Technologies = () => {
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiPandas className="text-7xl text-blue-950"/>
+                </motion.div>
+
+                <motion.div 
+                variants={iconVariants(1.5)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiNvidia className="text-7xl text-lime-300"/>
                 </motion.div>
 
                 <motion.div 
