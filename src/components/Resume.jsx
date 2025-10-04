@@ -1,4 +1,4 @@
-import JadinResumePt7 from '../assets/Jadins_Resume_Pt7.pdf';
+import JadinResumePt8 from '../assets/Jadins_Resume_Pt8.pdf';
 
 const Resume = () => {
 
@@ -9,7 +9,7 @@ const Resume = () => {
             
             <div className="flex justify-center">
                 <iframe
-                    src={JadinResumePt7}
+                    src={JadinResumePt8}
                     className="w-full max-w-4xl h-auto sm:h-[800px] lg:h-[1000px]"
                     allowFullScreen
                 />
