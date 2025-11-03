@@ -41,6 +41,8 @@ import { SiNvidia } from "react-icons/si";
 
 import { BiLogoPostgresql } from "react-icons/bi";
 
+import { FaAws } from "react-icons/fa";
+
 // used for animation
 import { motion } from 'framer-motion';
 import { track } from 'framer-motion/m';
@@ -514,7 +516,20 @@ const Technologies = () => {
                 initial="initial"
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiGooglecloud className="text-7xl text-gray-400"/>
+                    <SiGooglecloud className="text-7xl text-blue-400"/>
+                </motion.div>
+                </a>
+
+                <a 
+                    target="_blank"
+                    href="https://aws.amazon.com/"
+                >
+                <motion.div 
+                variants={iconVariants(1)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaAws className="text-7xl text-orange-400"/>
                 </motion.div>
                 </a>
 
