@@ -9,6 +9,7 @@ import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
 import project10 from "../assets/projects/project-10.png";
+import project11 from "../assets/projects/project-11.png";
 
 import badge_1 from "../assets/certs_badges/impl_bdg.jpg";
 import cert_1 from "../assets/certs_badges/cdl_jh.png";
@@ -82,6 +83,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Gate City Gigs",
+    image: project11,
+    description:
+      "Built an AI powered application that connects local community citizens to paid and community service hour gigs in their area.",
+    technologies: ["React", "JavaScript", "Tailwind CSS", "HTML", "Node.js", "Google API", "AWS", "AWS Bedrock", "Shell", "MapBox"],
+    link: "http://3.16.159.211:3000/",
+    linkTitle: "- Check out 'Gate City Gigs' Here\n"
+  },
   {
     title: "Retro J-Chat",
     image: project7,
