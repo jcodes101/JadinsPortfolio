@@ -5,9 +5,20 @@ const Projects = () => {
 
         <div className="border-b border-neutral-900 pb-4">
 
-            <h2 className="my-20 text-center text-4xl">
-                Projects
-            </h2>
+            <div className="my-20 flex justify-center">
+                <h2 
+                    className="inline-block rounded-full px-10 py-4 text-center text-3xl sm:text-4xl backdrop-blur-xl"
+                    style={{
+                        background: 'rgba(0, 0, 0, 0.4)',
+                        backdropFilter: 'blur(30px) saturate(180%)',
+                        WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                        border: '1px solid rgba(255, 255, 255, 0.1)',
+                        boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                    }}
+                >
+                    Projects
+                </h2>
+            </div>
 
             <div>
                 {PROJECTS.map((project, index) => (
@@ -28,7 +39,14 @@ const Projects = () => {
                             <a className="underline" target="_blank" href={project.link}>{project.linkTitle}</a>
                             <div className="flex flex-wrap">
                                 {project.technologies.map((tech, index) => (
-                                    <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-200">
+                                    <span key={index} className="inline-block rounded-2xl px-4 py-2 mt-1 text-center text-xs backdrop-blur-xl"
+                                    style={{
+                                        background: 'rgba(0, 0, 0, 0.4)',
+                                        backdropFilter: 'blur(30px) saturate(180%)',
+                                        WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                                        border: '1px solid rgba(255, 255, 255, 0.1)',
+                                        boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                                    }}>
                                         {tech}
                                     </span>
                                 ))}

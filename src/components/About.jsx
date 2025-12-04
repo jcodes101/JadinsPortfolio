@@ -1,4 +1,4 @@
-import aboutImg from '../assets/c_bg.jpg'
+import aboutImg from '../assets/jh_be_aa.jpeg'
 import { ABOUT_TEXT } from '../constants';
 import { motion } from "framer-motion";
 
@@ -7,9 +7,20 @@ const About = () => {
         
         <div className="border-b border-neutral-900 pb-4">
 
-            <h2 className="my-20 text-center text-4xl">About
-                <span className="text-neutral-500 font-thin"> Me</span>
-            </h2>
+            <div className="my-20 flex justify-center">
+                <h2 
+                    className="inline-block rounded-full px-10 py-4 text-center text-3xl sm:text-4xl backdrop-blur-xl"
+                    style={{
+                        background: 'rgba(0, 0, 0, 0.4)',
+                        backdropFilter: 'blur(30px) saturate(180%)',
+                        WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                        border: '1px solid rgba(255, 255, 255, 0.1)',
+                        boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                    }}
+                >
+                    About <span className="text-neutral-400 font-thin">Me</span>
+                </h2>
+            </div>
 
             <div className="flex flex-wrap">
                 <motion.div
@@ -19,7 +30,7 @@ const About = () => {
                     className="w-full lg:w-1/2 lg:p-8">
 
                     <div className="flex items-center justify-center">
-                        <img src={aboutImg} alt="aboutimg" style={{width:"500px", height:"auto"}} className="rounded-2xl shadow-[0_0_25px_#a2d2ff] hover:shadow-[0_0_25px_#ff82f3] transition-shadow duration-300"/>
+                        <img src={aboutImg} alt="aboutimg" style={{width:"350px", height:"auto"}} className="rounded-2xl shadow-[0_0_30px_#c9a069] hover:shadow-[0_0_50px_#c9a069] transition-shadow duration-300"/>
                     </div>
 
                 </motion.div>

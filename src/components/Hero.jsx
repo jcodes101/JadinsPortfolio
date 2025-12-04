@@ -15,7 +15,7 @@ const container = (delay) => ({
 const Hero = () => {
     return (
 
-        <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+        <div className="border-b border-neutral-900 pt-50 pb-4 lg:mb-35">
 
             <div className="flex flex-wrap">
 
@@ -39,7 +39,7 @@ const Hero = () => {
                         whileTap={{ scale: 1.1 }}
                         drag="x"
                         dragConstraints={{ left: -1, right: 1 }}
-                        className="bg-gradient-to-r from-blue-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Computer Scientist</motion.span>
+                        className="bg-gradient-to-r from-slate-400 via-stone-600 to-stone-500 bg-clip-text text-4xl tracking-tight text-transparent">Computer Scientist</motion.span>
                     
                         <motion.p 
                         variants={container(1)}
@@ -62,8 +62,8 @@ const Hero = () => {
                         transition={{ duration: 1, delay: 1.2 }}
                         src={profilePic} 
                         alt="Jadin Hutchinson" 
-                        style={{width:"300px", height:"auto"}} 
-                        className="rounded-2xl shadow-[0_0_25px_#ffffff] hover:shadow-[0_0_25px_#97ff82] transition-shadow duration-300"/>
+                        style={{width:"350px", height:"auto"}} 
+                        className="rounded-2xl shadow-[0_0_30px_#ffffff] hover:shadow-[0_0_50px_#ffffff] transition-shadow duration-300"/>
                     </div>
                 </div>
 

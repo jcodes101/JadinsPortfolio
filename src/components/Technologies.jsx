@@ -68,7 +68,20 @@ const Technologies = () => {
 
         <div className="border-b border-neutral-800 py-24">
 
-            <h2 className="my-20 text-center text-4xl">Tech <span className="text-neutral-500 font-thin">Stack</span></h2>
+            <div className="my-20 flex justify-center">
+                <h2 
+                    className="inline-block rounded-full px-10 py-4 text-center text-3xl sm:text-4xl backdrop-blur-xl"
+                    style={{
+                        background: 'rgba(0, 0, 0, 0.4)',
+                        backdropFilter: 'blur(30px) saturate(180%)',
+                        WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                        border: '1px solid rgba(255, 255, 255, 0.1)',
+                        boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                    }}
+                >
+                    Tech <span className="text-neutral-400 font-thin">Stack</span>
+                </h2>
+            </div>
         
             <div className="flex flex-wrap items-center justify-center gap-4">
 
@@ -80,12 +93,19 @@ const Technologies = () => {
                 {/*wrapped icon for animation */}
                 <motion.div
                 // gives bouncing animation at a specific speed
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 // the animate state is applied from the const
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiReactjsLine className="text-7xl text-cyan-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <RiReactjsLine className="text-6xl text-cyan-400"/>
                 </motion.div>
                 </a>
                 
@@ -95,11 +115,18 @@ const Technologies = () => {
                 href="https://www.typescriptlang.org/"
                 >
                 <motion.div 
-                variants={iconVariants(1.5)}
+                variants={iconVariants(1.1)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <TbBrandTypescript className="text-7xl text-blue-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <TbBrandTypescript className="text-6xl text-blue-400"/>
                 </motion.div>
                 </a>
                 
@@ -108,11 +135,18 @@ const Technologies = () => {
                     href="https://www.python.org/"
                 >
                 <motion.div 
-                variants={iconVariants(2)}
+                variants={iconVariants(1.4)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaPython className="text-7xl text-yellow-300"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaPython className="text-6xl text-yellow-300"/>
                 </motion.div>
                 </a>
                 
@@ -121,11 +155,18 @@ const Technologies = () => {
                     href="https://www.java.com/en/"
                 >
                 <motion.div 
-                variants={iconVariants(2.5)}
+                variants={iconVariants(1.8)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaJava className="text-7xl text-red-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaJava className="text-6xl text-red-400"/>
                 </motion.div>
                 </a>
                 
@@ -134,11 +175,18 @@ const Technologies = () => {
                     href="https://www.javascript.com/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <TbBrandJavascript className="text-7xl text-yellow-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <TbBrandJavascript className="text-6xl text-yellow-400"/>
                 </motion.div>
                 </a>
 
@@ -148,11 +196,18 @@ const Technologies = () => {
                     href="https://html.com/"
                 >
                 <motion.div 
-                variants={iconVariants(1.5)}
+                variants={iconVariants(1.1)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <TbBrandHtml5 className="text-7xl text-orange-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <TbBrandHtml5 className="text-6xl text-orange-400"/>
                 </motion.div>
                 </a>
 
@@ -162,11 +217,18 @@ const Technologies = () => {
                     href="https://developer.mozilla.org/en-US/docs/Web/CSS#:~:text=Cascading%20Style%20Sheets%20(CSS)%20is,speech%2C%20or%20on%20other%20media."
                 >
                 <motion.div 
-                variants={iconVariants(2)}
+                variants={iconVariants(1.4)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <TbBrandCss3 className="text-7xl text-blue-500"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <TbBrandCss3 className="text-6xl text-blue-500"/>
                 </motion.div>
                 </a>
 
@@ -176,11 +238,18 @@ const Technologies = () => {
                     href="https://tailwindcss.com/"
                 >
                 <motion.div 
-                variants={iconVariants(2.5)}
+                variants={iconVariants(1.8)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <TbBrandTailwind className="text-7xl text-cyan-300"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <TbBrandTailwind className="text-6xl text-cyan-300"/>
                 </motion.div>
                 </a>
 
@@ -190,11 +259,18 @@ const Technologies = () => {
                     href="https://www.w3schools.com/cpp/default.asp"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiCplusplus className="text-7xl text-blue-500"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiCplusplus className="text-6xl text-blue-500"/>
                 </motion.div>
                 </a>
 
@@ -204,11 +280,18 @@ const Technologies = () => {
                     href="https://www.gnu.org/software/bash/"
                 >
                 <motion.div 
-                variants={iconVariants(1.5)}
+                variants={iconVariants(1.1)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiGnubash className="text-7xl text-gray-700"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiGnubash className="text-6xl text-gray-700"/>
                 </motion.div>
                 </a>
 
@@ -218,11 +301,18 @@ const Technologies = () => {
                     href="https://www.php.net/"
                 >
                 <motion.div 
-                variants={iconVariants(2)}
+                variants={iconVariants(1.4)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaPhp className="text-7xl text-indigo-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaPhp className="text-6xl text-indigo-400"/>
                 </motion.div>
                 </a>
 
@@ -232,11 +322,18 @@ const Technologies = () => {
                     href="https://www.rust-lang.org/"
                 >
                 <motion.div 
-                variants={iconVariants(2.5)}
+                variants={iconVariants(1.8)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaRust className="text-7xl text-orange-600"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaRust className="text-6xl text-orange-600"/>
                 </motion.div>
                 </a>
 
@@ -246,11 +343,18 @@ const Technologies = () => {
                     href="https://go.dev/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaGolang className="text-7xl text-sky-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaGolang className="text-6xl text-sky-400"/>
                 </motion.div>
                 </a>
 
@@ -260,11 +364,18 @@ const Technologies = () => {
                     href="https://developer.apple.com/swift/"
                 >
                 <motion.div 
-                variants={iconVariants(1.5)}
+                variants={iconVariants(1.1)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <DiSwift className="text-7xl text-orange-500"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <DiSwift className="text-6xl text-orange-500"/>
                 </motion.div>
                 </a>
 
@@ -274,11 +385,18 @@ const Technologies = () => {
                     href="https://www.latex-project.org/"
                 >
                 <motion.div 
-                variants={iconVariants(2)}
+                variants={iconVariants(1.4)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiLatex className="text-7xl text-cyan-300"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiLatex className="text-6xl text-cyan-300"/>
                 </motion.div>
                 </a>
 
@@ -288,11 +406,18 @@ const Technologies = () => {
                     href="https://yaml.org/"
                 >
                 <motion.div 
-                variants={iconVariants(2.5)}
+                variants={iconVariants(1.8)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiYaml className="text-7xl text-red-600"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiYaml className="text-6xl text-red-600"/>
                 </motion.div>
                 </a>
 
@@ -302,11 +427,18 @@ const Technologies = () => {
                     href="https://nodejs.org/en"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaNode className="text-7xl text-lime-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaNode className="text-6xl text-lime-400"/>
                 </motion.div>
                 </a>
 
@@ -316,11 +448,18 @@ const Technologies = () => {
                     href="https://jupyter.org/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiJupyter className="text-7xl text-orange-500"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiJupyter className="text-6xl text-orange-500"/>
                 </motion.div>
                 </a>
 
@@ -330,11 +469,18 @@ const Technologies = () => {
                     href="https://www.r-project.org/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaRProject className="text-7xl text-blue-500"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaRProject className="text-6xl text-blue-500"/>
                 </motion.div>
                 </a>
 
@@ -344,11 +490,18 @@ const Technologies = () => {
                     href="https://pandas.pydata.org/"
                 >
                 <motion.div 
-                variants={iconVariants(1.5)}
+                variants={iconVariants(1.1)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiPandas className="text-7xl text-blue-950"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiPandas className="text-6xl text-blue-950"/>
                 </motion.div>
                 </a>
 
@@ -358,11 +511,18 @@ const Technologies = () => {
                     href="https://www.nvidia.com/en-us/glossary/machine-learning/"
                 >
                 <motion.div 
-                variants={iconVariants(1.5)}
+                variants={iconVariants(1.1)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiNvidia className="text-7xl text-lime-300"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiNvidia className="text-6xl text-lime-300"/>
                 </motion.div>
                 </a>
 
@@ -372,11 +532,18 @@ const Technologies = () => {
                     href="https://fastapi.tiangolo.com/"
                 >
                 <motion.div 
-                variants={iconVariants(2)}
+                variants={iconVariants(1.4)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiFastapi className="text-7xl text-teal-300"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiFastapi className="text-6xl text-teal-300"/>
                 </motion.div>
                 </a>
 
@@ -386,11 +553,18 @@ const Technologies = () => {
                     href="google.com/search?q=firebase&oq=firebase&gs_lcrp=EgZjaHJvbWUqDwgAEAAYQxjjAhiABBiKBTIPCAAQABhDGOMCGIAEGIoFMhIIARAuGEMYxwEY0QMYgAQYigUyBwgCEAAYgAQyBwgDEAAYgAQyDAgEEAAYFBiHAhiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBBzk5OGowajSoAgCwAgA&sourceid=chrome&ie=UTF-8"
                 >
                 <motion.div 
-                variants={iconVariants(2.5)}
+                variants={iconVariants(1.8)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiFirebase className="text-7xl text-amber-700"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiFirebase className="text-6xl text-amber-700"/>
                 </motion.div>
                 </a>
 
@@ -400,11 +574,18 @@ const Technologies = () => {
                     href="https://www.npmjs.com/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaNpm className="text-7xl text-red-600"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaNpm className="text-6xl text-red-600"/>
                 </motion.div>
                 </a>
 
@@ -414,11 +595,18 @@ const Technologies = () => {
                     href="https://www.postgresql.org/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <BiLogoPostgresql className="text-7xl text-sky-700"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <BiLogoPostgresql className="text-6xl text-sky-700"/>
                 </motion.div>
                 </a>
 
@@ -428,11 +616,18 @@ const Technologies = () => {
                     href="https://www.figma.com/"
                 >
                 <motion.div 
-                variants={iconVariants(1.5)}
+                variants={iconVariants(1.1)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaFigma className="text-7xl text-purple-500"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaFigma className="text-6xl text-purple-500"/>
                 </motion.div>
                 </a>
 
@@ -442,11 +637,18 @@ const Technologies = () => {
                     href="https://www.apachefriends.org/"
                 >
                 <motion.div 
-                variants={iconVariants(2.5)}
+                variants={iconVariants(1.8)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiXampp className="text-7xl text-orange-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiXampp className="text-6xl text-orange-400"/>
                 </motion.div>
                 </a>
 
@@ -456,11 +658,18 @@ const Technologies = () => {
                     href="https://www.mysql.com/"
                 >
                 <motion.div 
-                variants={iconVariants(1.5)}
+                variants={iconVariants(1.1)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiMysql className="text-7xl text-sky-600"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiMysql className="text-6xl text-sky-600"/>
                 </motion.div>
                 </a>
 
@@ -470,11 +679,18 @@ const Technologies = () => {
                     href="https://httpd.apache.org/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiApache className="text-7xl text-fuchsia-950"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiApache className="text-6xl text-fuchsia-950"/>
                 </motion.div>
                 </a>
 
@@ -484,11 +700,18 @@ const Technologies = () => {
                     href="https://www.ruby-lang.org/en/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <DiRuby className="text-7xl text-red-800"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <DiRuby className="text-6xl text-red-800"/>
                 </motion.div>
                 </a>
 
@@ -498,11 +721,18 @@ const Technologies = () => {
                     href="https://rubyonrails.org/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiRubyonrails className="text-7xl text-red-700"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiRubyonrails className="text-6xl text-red-700"/>
                 </motion.div>
                 </a>
 
@@ -512,11 +742,18 @@ const Technologies = () => {
                     href="https://cloud.google.com/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiGooglecloud className="text-7xl text-blue-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiGooglecloud className="text-6xl text-blue-400"/>
                 </motion.div>
                 </a>
 
@@ -525,11 +762,18 @@ const Technologies = () => {
                     href="https://aws.amazon.com/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaAws className="text-7xl text-orange-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaAws className="text-6xl text-orange-400"/>
                 </motion.div>
                 </a>
 
@@ -539,11 +783,18 @@ const Technologies = () => {
                     href="https://www.oracle.com/autonomous-database/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiOracle className="text-7xl text-red-500"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiOracle className="text-6xl text-red-500"/>
                 </motion.div>
                 </a>
 
@@ -553,11 +804,18 @@ const Technologies = () => {
                     href="https://www.docker.com/"
                 >
                 <motion.div 
-                variants={iconVariants(1)}
+                variants={iconVariants(0.7)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaDocker className="text-7xl text-blue-700"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <FaDocker className="text-6xl text-blue-700"/>
                 </motion.div>
                 </a>
 
@@ -567,11 +825,18 @@ const Technologies = () => {
                     href="https://vercel.com"
                 >
                 <motion.div 
-                variants={iconVariants(2)}
+                variants={iconVariants(1.4)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiVercelLine className="text-7xl text-white"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <RiVercelLine className="text-6xl text-white"/>
                 </motion.div>
                 </a>
 
@@ -581,11 +846,18 @@ const Technologies = () => {
                     href="https://www.netlify.com/"
                 >
                 <motion.div 
-                variants={iconVariants(2.5)}
+                variants={iconVariants(1.8)}
                 initial="initial"
                 animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiNetlify className="text-7xl text-cyan-400"/>
+                className="rounded-2xl p-4 backdrop-blur-xl transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,255,255,0.6)]"
+                style={{
+                    background: 'rgba(0, 0, 0, 0.4)',
+                    backdropFilter: 'blur(30px) saturate(180%)',
+                    WebkitBackdropFilter: 'blur(30px) saturate(180%)',
+                    border: '1px solid rgba(255, 255, 255, 0.1)',
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3)'
+                }}>
+                    <SiNetlify className="text-6xl text-cyan-400"/>
                 </motion.div>
                 </a>
 

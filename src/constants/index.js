@@ -53,6 +53,13 @@ export const CERTS_BADGES = [
 
 export const EXPERIENCES = [
   {
+    year: "Dec. 2025 - Present",
+    role: "Google Developer Group (GDG) Founder & Lead Organizer at NCA&T",
+    company: "Google",
+    description: "Founded and charted the Google Developer Group on North Carolina Agricultural & Technical State University, to spread more awareness of technologies within Google.",
+    technologies: ["Google Cloud", "Firebase", "Flutter", "Android", "Google Assistant", "Gemini", "TensorFlow", "& More"]
+  },
+  {
     year: "May 2025 - Aug. 2025",
     role: "Google Cloud Career Jumpstart Cohort",
     company: "Google",
@@ -64,7 +71,7 @@ export const EXPERIENCES = [
     role: "CodePath Tech Fellow (T.F.)",
     company: "CodePath",
     description: "Stepped in as a Tech Fellow with CodePath and helped students to further their programming skills.",
-    technologies: ["Python"],
+    technologies: ["Python", "ASD (Algorithms and Systems Design with GenAi)"],
   },
   {
     year: "2024 - Present",
