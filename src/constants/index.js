@@ -96,7 +96,7 @@ export const PROJECTS = [
     description:
       "Built an AI powered application that connects local community citizens to paid and community service hour gigs in their area.",
     technologies: ["React", "JavaScript", "Tailwind CSS", "HTML", "Node.js", "Google API", "AWS", "AWS Bedrock", "Shell", "MapBox"],
-    link: "http://3.16.159.211:3000/",
+    link: "https://gate-city-gigs.vercel.app/",
     linkTitle: "- Check out 'Gate City Gigs' Here\n"
   },
   {
