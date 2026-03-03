@@ -10,6 +10,7 @@ import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
 import project10 from "../assets/projects/project-10.png";
 import project11 from "../assets/projects/project-11.png";
+import project12 from "../assets/projects/project-12.png";
 
 import badge_1 from "../assets/certs_badges/impl_bdg.jpg";
 import cert_1 from "../assets/certs_badges/cdl_jh.png";
@@ -90,6 +91,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Third Space",
+    image: project12,
+    description:
+      "With the purpose to formulate a drive for community building, Third Space is meant to connect you to spaces where you feel a sense of belonging. Developed at UNC Spring 2026 Hackathon, Sponsored by Fidelity, Vanguard, and Wells Fargo.",
+    technologies: ["React", "JavaScript", "Tailwind CSS", "HTML", "Google Cloud", "Google Maps API"],
+    link: "https://third-space-nine.vercel.app/",
+    linkTitle: "- Check out 'Third Space' Here\n"
+  },
   {
     title: "Gate City Gigs",
     image: project11,
